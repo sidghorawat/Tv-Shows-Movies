@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Shortcuts.xsl"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Shortcuts.xsd">
+  <!-- All payload data belongs here -->
+  <user>
+    <firstname>Siddharth</firstname>
+    <lastname>Jain</lastname>
+    <bearcatid>M13469995</bearcatid>
+    <favoriteshortcut>ALT + TAB</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Medha</firstname>
+    <lastname>Kulkarni</lastname>
+    <bearcatid>M12345678</bearcatid>
+    <favoriteshortcut>Ctrl + N</favoriteshortcut>
+  </user>
+</users>
