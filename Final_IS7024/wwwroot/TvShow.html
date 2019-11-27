@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The Death Note</title>
+    <link rel="stylesheet" href="css/Styles.css" type="text/css" />
+    <link rel="stylesheet" media="screen and  (max-width: 480px)" href="css/Mobile.css" type="text/css" />
+    <link rel="stylesheet" media="Print" href="css/print.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(function () {
+            $("#Combined_Name").autocomplete({
+                source: "/AutoComplete",
+                minLength: 3
+            });
+        });
+    </script>
+    <style>
+        ul.ui-autocomplete {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            list-style-position: inside;
+            width: 50px;
+        }
+
+        li.ui-menu-item {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body style="margin-left:16px; margin-right:16px">
+    <div>
+        <h1 class="text-center">Movies/Tv Show</h1>
+    </div>
+    <div id="content">
+        <em>Note: Please enter the name of tv show or movie to view their details</em>
+        <form action="https://www.wikipedia.org/" method="get">
+            <label for="Combined_Name">Name</label>
+            <input name="Combined_Name" type="text" placeholder="Enter a movie or tv show" id="Combined_Name" />
+            <input type="submit" value="Submit" />
+        </form>
+        <hr />
+    </div>
+
+
+    <h1>The Death Note</h1>
+    <a href="https://en.wikipedia.org/wiki/The_Death_Note">
+        https://en.wikipedia.org/wiki/The_Death_Note
+    </a>
+    <hr />
+
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/The_Death_Note_poster.jpeg" alt="The death note poster">
+
+    <p>
+        <strong>The Death Note</strong> (<a href="https://en.wikipedia.org/wiki/Chinese_language">Chinese</a>
+        : 死亡笔记) is a 2016 Chinese
+        <a href="https://en.wikipedia.org/wiki/Suspense">horror suspense thriller film</a>
+        directed
+        by Jiang Jun and starring Cao Feiran, Li Zheng and Li Ben.[2] It was released in China by
+        Shanghai Zhaoyang Entertainment and Beijing Huanying Shidai Media on May 20, 2016.[1]
+    </p>
+
+
+    <p>
+        The film mainly tells the story of Liang Qian, a rebellious young woman, who caused her
+        grandmother's accidental death, and the notes left behind by her grandmother after her
+        death record the mystery of her life.
+    </p>
+
+    <h2>Cast</h2>
+    <hr />
+
+    <ul>
+
+        <li>Cao Feiran</li>
+        <li>Li Zheng</li>
+        <li>Li Ben</li>
+    </ul>
+
+    <h2>Reception</h2>
+    <hr />
+    <p>
+        The film grossed CN¥3.7 million at the Chinese box office.
+    </p>
+
+    <h2>References</h2>
+    <hr />
+    <ol>
+        <li><a href="http://www.cbooo.cn/m/638004"><em>a b c d</em> "死亡笔记（2016）"</a>. cbooo.cn (in Chinese). Retrieved December 18, 2016.</li>
+        <li><a href="https://movie.douban.com/subject/26766405/"><em>a b c d</em>"死亡笔记 (2016)"</a>. movie.douban.com (in Chinese). douban.com. Retrieved May 22, 2016</li>
+    </ol>
+
+</body>
+</html>
